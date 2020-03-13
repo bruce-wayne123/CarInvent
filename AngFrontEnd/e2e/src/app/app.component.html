@@ -1,0 +1,21 @@
+<h1 style="text-align:center">
+  
+  Welcome to Vehicle portal
+</h1>
+<body>
+
+
+<div style="text-align:center">
+  <nav [ngClass] = "'menu'">
+    <a routerLink="/home" routerLinkActive="active-link">Home</a> |
+    <a routerLink="/add-car" routerLinkActive="active-link">Add Car</a> | 
+    <a routerLink="/delete-car" routerLinkActive="active-link">Delete Car</a> |
+    <a routerLink="/update-car" routerLinkActive="active-link">Update Car</a>
+  </nav>
+</div>
+
+
+<div>	
+  <router-outlet></router-outlet>	
+</div>
+</body>
